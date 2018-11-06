@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block body %}
+        <form action='/processform' method='POST'>
+            Your name: <input type='text' name='thename'><br>
+            Your age: <input type='text' name='theage'><br>
+            Your location: <input type='text' name='thelocation'><br>
+            <input type='submit'>
+        </form>
+{% endblock %}
